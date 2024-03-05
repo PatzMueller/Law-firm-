@@ -188,7 +188,7 @@ input#burger-menu:checked + .burger-menu span:nth-child(2) {
 
 .sidebar-container > p {
     color: var(--sec-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: olimpico, sans-serif;
     text-align: center;
     line-height: 1;
