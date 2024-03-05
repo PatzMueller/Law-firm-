@@ -175,6 +175,7 @@ input#burger-menu:checked + .burger-menu span:nth-child(2) {
     flex-direction: column;;
     align-items: center;
     justify-content: center;
+    gap: 3em;
 }
 .nav-desktop:has(input:checked) .sidebar {
     transform: scale(1, 1);
