@@ -15,6 +15,14 @@ body{
     background-color: var(--bg-color);
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 /* Loading Animation */
 .loader {
     position: fixed;
@@ -115,10 +123,11 @@ input#burger-menu {
 }
 
 .burger-menu {
-    width: 4em;
+    width: 3em;
     height: 2em;
     position: relative;
     cursor: pointer;
+    z-index: 2;
 }
 
 .burger-menu span { 
