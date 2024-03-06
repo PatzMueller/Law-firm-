@@ -264,6 +264,11 @@ h2 {
 
 .introduction img {
     max-width: 400px;
+    transition: border 50ms ease-in-out;
+}
+
+.introduction img:hover {
+    border: 3px solid var(--titel-hover);
 }
 
 .introduction p {
