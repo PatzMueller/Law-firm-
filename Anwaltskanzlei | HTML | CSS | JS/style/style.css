@@ -6,6 +6,7 @@
 
 :root{
     --bg-color: #152131;
+    --bg-sec-color: #0d1827;
     --main-color: #EBEDEF;
     --sec-color: #79818B;
     --titel-hover: #FCD26F;
@@ -93,6 +94,7 @@ header {
     position: fixed;
     min-width: 100%;
     backdrop-filter: blur(5px);
+    z-index: 2;
 }
 
 .nav-desktop {
@@ -335,3 +337,41 @@ h3 {
     }
 }
 
+/* Expertise */
+.expertise {
+    padding: 5em;
+}
+
+.expertise-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10em;
+    margin-block: 10em;
+}
+
+.expertise-content img {
+    max-width: 40%;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 5em 10em;
+    max-width: 100%;
+}
+
+.services div {
+    background-color: var(--bg-sec-color);
+    padding: 3em;
+}
+
+.services div p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.services div p:nth-child(2) {
+    max-width: 50ch;
+}
