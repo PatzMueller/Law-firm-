@@ -376,3 +376,22 @@ h3 {
 .services div p:nth-child(2) {
     max-width: 50ch;
 }
+
+.statistics {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--titel-hover);
+    font-family: olimpico, sans-serif;
+    font-weight: normal;
+
+}
+
+.statistics p {
+    text-transform: uppercase;
+}
