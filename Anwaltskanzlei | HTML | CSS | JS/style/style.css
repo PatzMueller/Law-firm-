@@ -97,6 +97,13 @@ header {
     z-index: 3;
 }
 
+header:hover{
+    background: rgba(21, 33, 49, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
 .nav-desktop {
     display: flex;
     justify-content: space-between;
