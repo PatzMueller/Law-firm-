@@ -449,3 +449,30 @@ h3 {
     font-size: 1rem;
     text-decoration: underline;
 }
+
+/* Footer */
+footer {
+    padding: 5em 5em 1em 5em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 5em;
+    align-items: flex-end;
+}
+
+footer div {
+    flex: 1 1 0;
+}
+
+h4 {
+    color: var(--titel-hover);
+    font-family: olimpico, sans-serif;
+    font-size: 1.75rem;
+    font-weight: normal;
+}
+
+footer h4:last-child {
+    text-align: center;
+}
