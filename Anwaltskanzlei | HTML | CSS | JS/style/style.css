@@ -239,8 +239,10 @@ input#burger-menu:checked + .burger-menu span:nth-child(2) {
     background-position: center;
     min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
     padding: 5em;
 }
 
@@ -248,6 +250,20 @@ h1 {
     color: var(--titel-hover);
     font-family: olimpico, sans-serif;
     font-size: 4.5rem;
+}
+
+.subpage-link {
+    color: var(--titel-hover);
+    text-transform: uppercase;
+    font-family: olimpico, sans-serif;
+    font-size: 1.5rem;
+    border: 2px solid var(--titel-hover);
+    text-align: center;
+    padding: 1em 4em;
+}
+.subpage-link:hover {
+    background-color: var(--titel-hover);
+    color: var(--bg-color);
 }
 
 /* About */
@@ -299,21 +315,9 @@ h2 {
     color: var(--titel-hover);
 }
 
-.introduction div a {
+.introduction .subpage-link {
     width: 100%;
-    background-color: var(--bg-color);
-    border: 1px solid var(--titel-hover);
-    text-align: center;
-    padding-block: 1em;
-    color: var(--titel-hover);
-    text-transform: uppercase;
-    font-family: olimpico, sans-serif;
-    font-size: 1.5rem;
-}
-
-.introduction div a:hover {
-    background-color: var(--titel-hover);
-    color: var(--bg-color);
+    padding: 1em 0;
 }
 
 .clients {
