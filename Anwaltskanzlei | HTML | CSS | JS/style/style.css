@@ -184,6 +184,8 @@ input#burger-menu:checked + .burger-menu span:nth-child(2) {
     display: flex;
     align-items: center;
     box-shadow: -9px 2px 100px 0px rgba(0,0,0,0.7);
+    border: 1px solid var(--titel-hover);
+    /* border-left: 1px solid var(--titel-hover); */
 }
 .nav-desktop:has(input:checked) .sidebar {
     transform: scale(1, 1);
